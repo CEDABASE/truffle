@@ -9466,10 +9466,10 @@ ganache-cli@^6.1.0:
     source-map-support "0.5.12"
     yargs "13.2.4"
 
-ganache-core@2.13.0-beta.0:
-  version "2.13.0-beta.0"
-  resolved "https://registry.yarnpkg.com/ganache-core/-/ganache-core-2.13.0-beta.0.tgz#23e69aaf90974cbb77380ec14902fa18ad176d70"
-  integrity sha512-tG8LTzt/0ficDyoUNVdn9GiWoFGFVxuzo7aoIKXhu9DarVFfVozPt2jOWFRNzgw8CWhWWw1P5Aq1jK3RT7xAmw==
+ganache-core@2.13.0-beta.1:
+  version "2.13.0-beta.1"
+  resolved "https://registry.yarnpkg.com/ganache-core/-/ganache-core-2.13.0-beta.1.tgz#56244ed13b7aa5d5ed78e5ce47e573deb4e7a68c"
+  integrity sha512-/0Z6nueddbDUmsvNHueeylWgedYjW6sHjgeaIh8GTZKLX1aIrcVkOi5Hne6JR3zyQp1XectbrWB2l6aiKT/bSQ==
   dependencies:
     abstract-leveldown "3.0.0"
     async "2.6.2"
@@ -9487,6 +9487,7 @@ ganache-core@2.13.0-beta.0:
     ethereumjs-util "6.2.1"
     ethereumjs-vm "4.2.0"
     heap "0.2.6"
+    keccak "3.0.1"
     level-sublevel "6.6.4"
     levelup "3.1.1"
     lodash "4.17.14"
@@ -12462,6 +12463,14 @@ jws@^3.2.2:
   dependencies:
     jwa "^1.4.1"
     safe-buffer "^5.0.1"
+
+keccak@3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/keccak/-/keccak-3.0.1.tgz#ae30a0e94dbe43414f741375cff6d64c8bea0bff"
+  integrity sha512-epq90L9jlFWCW7+pQa6JOnKn2Xgl2mtI664seYR6MHskvI9agt7AnDqmAlp9TqU4/caMYbA08Hi5DMZAl5zdkA==
+  dependencies:
+    node-addon-api "^2.0.0"
+    node-gyp-build "^4.2.0"
 
 keccak@^1.0.2:
   version "1.4.0"
